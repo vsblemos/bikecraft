@@ -1,0 +1,30 @@
+[18-May-2022 00:49:30 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' in /Users/victorserra/Local Sites/bikecraft-v1/app/public/wp-content/themes/bikcraft - cópia/page-home.php on line 91
+[18-May-2022 00:49:49 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' in /Users/victorserra/Local Sites/bikecraft-v1/app/public/wp-content/themes/bikcraft - cópia/page-home.php on line 91
+[18-May-2022 00:49:54 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' in /Users/victorserra/Local Sites/bikecraft-v1/app/public/wp-content/themes/bikcraft - cópia/page-home.php on line 91
+[18-May-2022 00:51:27 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' in /Users/victorserra/Local Sites/bikecraft-v1/app/public/wp-content/themes/bikcraft - cópia/page-home.php on line 91
+[18-May-2022 00:51:28 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' in /Users/victorserra/Local Sites/bikecraft-v1/app/public/wp-content/themes/bikcraft - cópia/page-home.php on line 91
+[18-May-2022 00:52:25 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' in /Users/victorserra/Local Sites/bikecraft-v1/app/public/wp-content/themes/bikcraft - cópia/page-home.php on line 91
+[18-May-2022 00:52:26 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' in /Users/victorserra/Local Sites/bikecraft-v1/app/public/wp-content/themes/bikcraft - cópia/page-home.php on line 91
+[18-May-2022 00:52:50 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ':' in /Users/victorserra/Local Sites/bikecraft-v1/app/public/wp-content/themes/bikcraft - cópia/page-home.php on line 91
+[18-May-2022 00:52:51 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ':' in /Users/victorserra/Local Sites/bikecraft-v1/app/public/wp-content/themes/bikcraft - cópia/page-home.php on line 91
+[18-May-2022 00:52:53 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ':' in /Users/victorserra/Local Sites/bikecraft-v1/app/public/wp-content/themes/bikcraft - cópia/page-home.php on line 91
+[18-May-2022 00:53:09 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' in /Users/victorserra/Local Sites/bikecraft-v1/app/public/wp-content/themes/bikcraft - cópia/page-home.php on line 91
+[18-May-2022 00:53:10 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' in /Users/victorserra/Local Sites/bikecraft-v1/app/public/wp-content/themes/bikcraft - cópia/page-home.php on line 91
+[18-May-2022 00:53:31 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ':' in /Users/victorserra/Local Sites/bikecraft-v1/app/public/wp-content/themes/bikcraft - cópia/page-produtos.php on line 103
+[22-May-2022 19:44:35 UTC] PHP Parse error:  syntax error, unexpected '$bg_large' (T_VARIABLE) in /Users/victorserra/Local Sites/bikecraft-v1/app/public/wp-content/themes/bikcraft - cópia/page-home.php on line 11
+[22-May-2022 19:45:37 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_field(), 0 passed in /Users/victorserra/Local Sites/bikecraft-v1/app/public/wp-content/themes/bikcraft - cópia/page-home.php on line 10 and at least 1 expected in /Users/victorserra/Local Sites/bikecraft-v1/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php:20
+Stack trace:
+#0 /Users/victorserra/Local Sites/bikecraft-v1/app/public/wp-content/themes/bikcraft - cópia/page-home.php(10): get_field()
+#1 /Users/victorserra/Local Sites/bikecraft-v1/app/public/wp-includes/template-loader.php(106): include('/Users/victorse...')
+#2 /Users/victorserra/Local Sites/bikecraft-v1/app/public/wp-blog-header.php(19): require_once('/Users/victorse...')
+#3 /Users/victorserra/Local Sites/bikecraft-v1/app/public/index.php(17): require('/Users/victorse...')
+#4 {main}
+  thrown in /Users/victorserra/Local Sites/bikecraft-v1/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php on line 20
+[10-Jun-2022 02:05:15 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/victorserra/Local Sites/bikecraft-v1/app/public/wp-includes/update.php on line 413
+[10-Jun-2022 02:05:15 UTC] PHP Stack trace:
+[10-Jun-2022 02:05:15 UTC] PHP   1. {main}() /Users/victorserra/Local Sites/bikecraft-v1/app/public/wp-cron.php:0
+[10-Jun-2022 02:05:15 UTC] PHP   2. do_action_ref_array() /Users/victorserra/Local Sites/bikecraft-v1/app/public/wp-cron.php:138
+[10-Jun-2022 02:05:15 UTC] PHP   3. WP_Hook->do_action() /Users/victorserra/Local Sites/bikecraft-v1/app/public/wp-includes/plugin.php:522
+[10-Jun-2022 02:05:15 UTC] PHP   4. WP_Hook->apply_filters() /Users/victorserra/Local Sites/bikecraft-v1/app/public/wp-includes/class-wp-hook.php:331
+[10-Jun-2022 02:05:15 UTC] PHP   5. wp_update_plugins() /Users/victorserra/Local Sites/bikecraft-v1/app/public/wp-includes/class-wp-hook.php:307
+[10-Jun-2022 02:05:15 UTC] PHP   6. trigger_error() /Users/victorserra/Local Sites/bikecraft-v1/app/public/wp-includes/update.php:413
